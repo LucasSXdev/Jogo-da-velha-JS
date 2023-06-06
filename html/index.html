@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script defer src="/js/index.js"></script>
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <main id="container">
+      <h1>Jogo Tic-Tac-Toe</h1>
+      <hr />
+      <label for="player1"> <strong>X:</strong></label>
+      <input type="text" id="player1" placeholder="Digite o nome no player1" />
+      <label for="player2"> <strong>O:</strong></label>
+      <input type="text" id="player2" placeholder="Digite o nome no player2" />
+      <button id="start">Começar!</button>
+      <h2 id="turnPlayer">Vez de:</h2>
+
+      <div id="board">
+        <div class="boardArea" data-area="0.0"></div>
+        <div class="boardArea" data-area="0.1"></div>
+        <div class="boardArea" data-area="0.2"></div>
+        <div class="boardArea" data-area="1.0"></div>
+        <div class="boardArea" data-area="1.1"></div>
+        <div class="boardArea" data-area="1.2"></div>
+        <div class="boardArea" data-area="2.0"></div>
+        <div class="boardArea" data-area="2.1"></div>
+        <div class="boardArea" data-area="2.2"></div>
+      </div>
+    </main>
+  </body>
+</html>
